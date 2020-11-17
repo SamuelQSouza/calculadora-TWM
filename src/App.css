@@ -1,0 +1,26 @@
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+
+    display: grid;
+    width: 100%;
+    max-width: 240px;
+    border-radius: 15px;
+    background-color: #eee;    
+    grid-template-areas: "d1 d1 d1 d1"
+                         "d2 d2 d2 d2"
+                         "n7 n8 n9 ."
+                         "n4 n5 n6 ."
+                         "n1 n2 n3 ."
+                         "n0  .  . .";
+}
+
+
